@@ -1,0 +1,43 @@
+.all {
+    align-content: center;
+}
+.keypad {
+
+    align-self: center;
+    justify-content: center;
+	align-items: center;  
+}
+
+.keypad button:hover{
+    cursor: pointer;
+}
+
+
+
+.keypad-row {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.keypad-row > button {
+    font-size: 1.6rem;
+    margin: 2px;
+    overflow: hidden;
+    height: 60px;
+    width: 80px;
+}
+
+.keypad-primary-btn {
+    background-color: #FBFBFB;
+    color: #20232A;
+    font-weight: bold;
+}
+
+.keypad-secondary-btn {
+    background-color: #F2F2F2;
+    color: #00ACC1;
+}
